@@ -1,0 +1,8 @@
+//Collegare remote repository a progetto locale
+
+rd .git /S/Q
+git init
+git add .
+git commit -m "Primo commit"
+git remote add origin https://github.com/maurilioHH/angular.git
+git push -u origin master
