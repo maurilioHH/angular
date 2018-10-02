@@ -1,6 +1,6 @@
 export class Model {
-    user;
-    items;
+    user: string;
+    items: TodoItem[];
     constructor() {
         this.user = "Adam";
         this.items = [new TodoItem("Buy Flowers", false),
@@ -10,7 +10,6 @@ export class Model {
         ]
     }
 }
-
 export class TodoItem {
     action;
     done;

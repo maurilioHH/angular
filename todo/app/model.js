@@ -5,7 +5,8 @@ var Model = (function () {
         this.items = [new TodoItem("Buy Flowers", false),
             new TodoItem("Get Shoes", false),
             new TodoItem("Collect Tickets", false),
-            new TodoItem("Call Joe", false)];
+            new TodoItem("Call Joe", false)
+        ];
     }
     return Model;
 }());
